@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
             mediaPlayer.stop();
+            songTextView.setText("돈내라");
             Intent popUpIntent = new Intent(MainActivity.this, PopUpWindow.class);
             startActivity(popUpIntent);
         }

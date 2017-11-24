@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".PopUpWindow"></activity>
+        <activity android:name=".PopUpWindow" android:theme="@style/PopUp"/>
     </application>
 
 </manifest>
